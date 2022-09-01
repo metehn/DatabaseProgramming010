@@ -6,6 +6,8 @@
     <persistence-unit name="DatabaseProgramming010PU">
         <class>persistence.Sample</class>
         <class>inventory.Product</class>
+        <class>human.Employee</class>
+        <class>human.Department</class>
         <properties>
             <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/jpadb?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
             <property name="jakarta.persistence.jdbc.user" value="root"/>
