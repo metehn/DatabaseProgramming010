@@ -19,7 +19,7 @@ public class Employee implements Serializable {
     @NonNull
     private double monthlySalary;
     @ManyToOne
-    @JoinColumn(name = "departmentId")
+    @JoinColumn(name = "departmentId") //Foreign key olarak departmentId adlı yeni bir column atıyor. name kısmına ne yazarsak o isimle sütun yaratılıyor.
     private Department department;
 
 }
